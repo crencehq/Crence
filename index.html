@@ -61,7 +61,7 @@
     .project-note{font-size:10px;color:#88867e;margin-top:9px}
     .services{border-top:1px solid var(--line);margin-top:26px}
     .service{display:grid;grid-template-columns:45px 1fr 24px;gap:16px;align-items:center;padding:23px 0;border-bottom:1px solid var(--line)}
-    .service-num{font:10px "DM Mono",monospace;color:var(--muted)}.service h3{font-size:clamp(21px,3.4vw,34px);letter-spacing:-.06em;margin:0;font-weight:600}.service p{font-size:12px;line-height:1.6;color:var(--muted);margin:6px 0 0}.service-arrow{font-size:22px;text-align:right}
+    .service-num{font:10px "DM Mono",monospace;color:var(--muted)}.service h3{font-size:clamp(21px,3.4vw,34px);letter-spacing:-.06em;margin:0;font-weight:600}.service p{font-size:12px;line-height:1.6;color:var(--muted);margin:6px 0 0}
     .about{display:grid;grid-template-columns:1fr 1fr;gap:40px;border-top:1px solid var(--line);padding-top:24px}
     .about h2{font-size:clamp(35px,5.4vw,60px);letter-spacing:-.08em;line-height:.92;margin:14px 0}
     .about-copy{font-size:14px;line-height:1.8;color:#5f5e57;max-width:470px}
@@ -69,11 +69,11 @@
     .contact:after{content:"C";font-size:clamp(230px,37vw,460px);line-height:.7;font-weight:800;letter-spacing:-.12em;color:#ffffff08;position:absolute;right:4%;bottom:-10%;pointer-events:none}
     .contact h2{font-size:clamp(48px,8.4vw,100px);line-height:.84;letter-spacing:-.09em;margin:30px 0;position:relative;z-index:1}
     .contact p{font-size:13px;line-height:1.7;color:#c2c1b9;max-width:360px;position:relative;z-index:1}
-    .contact-btn{display:inline-flex;align-items:center;gap:28px;background:var(--acid);color:var(--ink);border-radius:99px;padding:15px 19px;font-size:12px;margin-top:16px;position:relative;z-index:1}
+    .contact-btn{display:inline-flex;align-items:center;gap:0;background:var(--acid);color:var(--ink);border-radius:99px;padding:15px 19px;font-size:12px;margin-top:16px;position:relative;z-index:1}
     footer{border-top:1px solid var(--line);padding:25px 0 35px;display:flex;justify-content:space-between;align-items:center;gap:18px;font-size:11px;color:#6b6961}
     .reveal{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease}.reveal.visible{opacity:1;transform:translateY(0)}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.sphere{animation:none}.reveal{opacity:1;transform:none;transition:none}}
-    @media(max-width:650px){.wrap{width:calc(100% - 36px)}.nav{height:67px}.navlinks{gap:13px;font-size:10px}.navlinks .hide{display:none}.nav-cta{padding:10px 12px}.hero{padding-top:49px}h1{margin-top:35px}.hero-bottom{align-items:flex-start}.hero-bottom p{font-size:13px}.hero-mark{width:78px;height:78px;flex-basis:78px;font-size:9px}.art-label{left:15px;top:15px}.art-bottom{left:15px;right:15px;bottom:15px}.art-bottom span{font-size:8px;max-width:105px}.section{padding:62px 0}.section-head{align-items:flex-start;flex-direction:column}.projects{gap:32px 12px}.project:nth-child(even){margin-top:40px}.project-title{font-size:19px}.project-meta{font-size:9px;flex-direction:column;gap:4px}.project-note{font-size:9px}.phone,.phone-back{width:43%;height:69%;padding:10px}.balance{font-size:18px}.service{grid-template-columns:27px 1fr 18px;gap:9px}.about{grid-template-columns:1fr;gap:10px}.contact{padding:38px 21px}.contact h2{font-size:clamp(49px,13vw,75px)}footer{align-items:flex-start;flex-direction:column}}
+    @media(max-width:650px){.wrap{width:calc(100% - 36px)}.nav{height:67px}.navlinks{gap:13px;font-size:10px}.navlinks .hide{display:none}.nav-cta{padding:10px 12px}.hero{padding-top:49px}h1{margin-top:35px}.hero-bottom{align-items:flex-start}.hero-bottom p{font-size:13px}.hero-mark{width:78px;height:78px;flex-basis:78px;font-size:9px}.art-label{left:15px;top:15px}.art-bottom{left:15px;right:15px;bottom:15px}.art-bottom span{font-size:8px;max-width:105px}.section{padding:62px 0}.section-head{align-items:flex-start;flex-direction:column}.projects{gap:32px 12px}.project:nth-child(even){margin-top:40px}.project-title{font-size:19px}.project-meta{font-size:9px;flex-direction:column;gap:4px}.project-note{font-size:9px}.phone,.phone-back{width:43%;height:69%;padding:10px}.balance{font-size:18px}.service{grid-template-columns:27px 1fr;gap:9px}.about{grid-template-columns:1fr;gap:10px}.contact{padding:38px 21px}.contact h2{font-size:clamp(49px,13vw,75px)}footer{align-items:flex-start;flex-direction:column}}
   </style>
 </head>
 <body>
@@ -81,7 +81,7 @@
     <header class="nav">
       <a class="logo" href="#top" aria-label="Crence home">crence<sup>®</sup></a>
       <nav class="navlinks" aria-label="Main navigation">
-        <a href="#work">Work</a><a class="hide" href="#capabilities">Capabilities</a><a class="nav-cta" href="#contact">Start a project ↗</a>
+        <a href="#work">Work</a><a class="hide" href="#capabilities">Capabilities</a><a class="nav-cta" href="#contact">Start a project</a>
       </nav>
     </header>
     <main id="top">
@@ -108,7 +108,7 @@
             <div class="project-visual v-tx">
               <div class="project-top"><span>TRANXACT / DIGITAL PRODUCT</span><span>01</span></div>
               <div class="phone-back">TRANXACT<br><br><br>Money,<br>Simplified.</div>
-              <div class="phone"><div class="phone-label">TRANXACT</div><div class="balance-label">TOTAL BALANCE</div><div class="balance">₦248,500</div><div class="ui-line"></div><div style="font-size:8px;margin-top:14px">Recent activity</div><div class="ui-line"></div><div class="ui-line" style="width:65%"></div><div class="phone-cta">Send money ↗</div></div>
+              <div class="phone"><div class="phone-label">TRANXACT</div><div class="balance-label">TOTAL BALANCE</div><div class="balance">₦248,500</div><div class="ui-line"></div><div style="font-size:8px;margin-top:14px">Recent activity</div><div class="ui-line"></div><div class="ui-line" style="width:65%"></div><div class="phone-cta">Send money</div></div>
             </div>
             <div class="project-title">Tranxact</div><div class="project-meta"><span>Digital product · Brand system</span><span>Product design</span></div>
             <div class="project-note">Founder project · Replace this concept mockup with your actual approved designs.</div>
@@ -133,10 +133,10 @@
       <section class="section" id="capabilities" style="padding-top:12px">
         <div class="section-head"><div><div class="eyebrow">02 / Capabilities</div><h2>Different mediums.<br>One point of view.</h2></div></div>
         <div class="services">
-          <div class="service"><div class="service-num">01</div><div><h3>Digital design</h3><p>Websites, apps, interfaces and digital experiences.</p></div><div class="service-arrow">↗</div></div>
-          <div class="service"><div class="service-num">02</div><div><h3>Brand identity</h3><p>Visual systems, typography and recognisable identities.</p></div><div class="service-arrow">↗</div></div>
-          <div class="service"><div class="service-num">03</div><div><h3>Ads & campaigns</h3><p>Distinctive concepts and creative for products and launches.</p></div><div class="service-arrow">↗</div></div>
-          <div class="service"><div class="service-num">04</div><div><h3>AI video & brand films</h3><p>AI-assisted commercials, motion and cinematic brand storytelling.</p></div><div class="service-arrow">↗</div></div>
+          <div class="service"><div class="service-num">01</div><div><h3>Digital design</h3><p>Websites, apps, interfaces and digital experiences.</p></div></div>
+          <div class="service"><div class="service-num">02</div><div><h3>Brand identity</h3><p>Visual systems, typography and recognisable identities.</p></div></div>
+          <div class="service"><div class="service-num">03</div><div><h3>Ads & campaigns</h3><p>Distinctive concepts and creative for products and launches.</p></div></div>
+          <div class="service"><div class="service-num">04</div><div><h3>AI video & brand films</h3><p>AI-assisted commercials, motion and cinematic brand storytelling.</p></div></div>
         </div>
       </section>
       <section class="section" style="padding-top:0">
@@ -150,7 +150,7 @@
         <h2>Let's make<br>something <em>matter.</em></h2>
         <p>Have a product to launch, a brand to shape or a story worth telling? Tell us what you're working on.</p>
         <!-- Replace crencehq@gmail.com with your real portfolio email before publishing. -->
-        <a class="contact-btn" href="mailto:crencehq@gmail.com?subject=Project%20enquiry">Start a project <span>↗</span></a>
+        <a class="contact-btn" href="mailto:crencehq@gmail.com?subject=Project%20enquiry">Start a project</a>
       </section>
     </main>
     <footer><a class="logo" style="font-size:22px" href="#top">crence<sup>®</sup></a><span>Digital design · Advertising · Films</span><a href="#top">Back to top ↑</a></footer>

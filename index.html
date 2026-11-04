@@ -170,6 +170,68 @@
     .form-close{position:absolute;right:18px;top:16px;border:1px solid var(--line);background:transparent;border-radius:50%;width:36px;height:36px;font-size:20px;cursor:pointer}
     @media(max-width:650px){.signature-line{padding:54px 0}.signature-line h2{font-size:clamp(52px,14vw,94px)}.footer-socials{gap:20px}.footer-socials a{font-size:17px}.footer-socials a.social-icon{width:38px;height:38px}.footer-socials a.social-icon svg{width:28px;height:28px}.contact-panel{padding:27px 20px}.form-grid{grid-template-columns:1fr}.form-field.full{grid-column:auto}.form-actions{align-items:flex-start;flex-direction:column}}
 
+
+    /* Refinements: clearer service range, more breathing room and readable body copy */
+    body{font-size:16px}
+    .navlinks{font-size:14px}
+    .section-head p{font-size:15px;line-height:1.8}
+    .project-meta{font-size:12px}
+    .project-note{font-size:12px}
+    .service{grid-template-columns:54px 1fr;gap:20px;padding:30px 0}
+    .service h3{font-size:clamp(25px,3.2vw,36px)}
+    .service p{font-size:15px;line-height:1.75;max-width:760px}
+    .business-growth{padding-top:34px}
+    .business-intro{align-items:flex-start;flex-direction:column;gap:18px;margin:22px 0 42px}
+    .business-intro h2{max-width:900px}
+    .business-intro p{max-width:620px;font-size:16px;line-height:1.8}
+    .growth-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 34px;border:0}
+    .growth-card,.growth-card:not(:first-child),.growth-card:nth-child(4){min-height:0;padding:30px 10px 34px 0;border:0;border-top:1px solid var(--line)}
+    .growth-card:nth-child(even){padding-left:22px}
+    .growth-card:nth-child(3n){border-right:0}
+    .growth-card h3{font-size:clamp(23px,2.6vw,31px);margin:22px 0 12px;line-height:1.08}
+    .growth-card p{font-size:15px;line-height:1.8;max-width:390px}
+    .growth-foot{margin-top:24px;padding-top:22px;border-top:1px solid var(--line)}
+    .growth-foot p{font-size:15px;line-height:1.75}
+    .growth-link{font-size:13px;padding:15px 20px}
+    .about-copy{font-size:17px;line-height:1.85}
+    .contact p{font-size:16px;line-height:1.8}
+    .contact-btn{font-size:14px;padding:16px 22px}
+    footer{gap:17px;padding:32px 0 38px}
+    .footer-description{font-size:15px;line-height:1.7}
+    .footer-socials{gap:26px}
+    .footer-socials a.social-icon{width:42px;height:42px}
+    .footer-socials a.social-icon svg{width:30px;height:30px}
+    .back-top{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:#77766e;margin-top:1px;transition:color .2s}
+    .back-top:hover{color:var(--ink)}
+    .contact-panel>p{font-size:15px;line-height:1.75}
+    .form-field label{font-size:11px}
+    .form-field input,.form-field select,.form-field textarea{font-size:15px}
+    @media(max-width:800px){.growth-grid{grid-template-columns:1fr 1fr}.growth-card:nth-child(even){padding-left:18px}.business-intro{gap:16px}}
+    @media(max-width:650px){
+      .navlinks{font-size:12px}
+      .hero-bottom p{font-size:15px}
+      .section-head p{font-size:14px}
+      .project-meta{font-size:11px}
+      .project-note{font-size:11px}
+      .service{grid-template-columns:30px 1fr;gap:12px;padding:24px 0}
+      .service h3{font-size:23px}
+      .service p{font-size:14px;line-height:1.7}
+      .business-intro h2{font-size:clamp(40px,11vw,62px)}
+      .business-intro p{font-size:15px}
+      .growth-grid{grid-template-columns:1fr;gap:0}
+      .growth-card,.growth-card:not(:first-child),.growth-card:nth-child(4),.growth-card:nth-child(even){padding:24px 0 26px;border-top:1px solid var(--line)}
+      .growth-card h3{font-size:24px;margin:17px 0 9px}
+      .growth-card p{font-size:14px;line-height:1.75;max-width:100%}
+      .growth-foot p{font-size:14px}
+      .growth-link{font-size:13px}
+      .about-copy{font-size:16px}
+      .contact p{font-size:15px}
+      footer{align-items:center;flex-direction:column;text-align:center}
+      .footer-description{font-size:14px}
+      .footer-socials{gap:24px}
+      .back-top{font-size:13px}
+    }
+
   </style>
 </head>
 <body>
@@ -229,9 +291,11 @@
       <section class="section" id="capabilities" style="padding-top:12px">
         <div class="section-head"><div><div class="eyebrow">02 / Capabilities</div><h2>One partner.<br><em>Every possibility.</em></h2></div></div>
         <div class="services">
-          <div class="service"><div class="service-num">01</div><div><h3>Creative &amp; Branding</h3><p>Brand strategy, visual identities, design systems and art direction that give businesses a distinctive point of view.</p></div></div>
-          <div class="service"><div class="service-num">02</div><div><h3>Film &amp; Motion</h3><p>Brand films, product launches, commercials, animation and motion-led stories made to move people.</p></div></div>
-          <div class="service"><div class="service-num">03</div><div><h3>Marketing &amp; Advertising</h3><p>Campaign concepts, advertising creative, social content and brand communications that connect with audiences.</p></div></div>
+          <div class="service"><div class="service-num">01</div><div><h3>Creative &amp; Branding</h3><p>Brand strategy, naming, visual identities, design systems and art direction that give businesses a distinctive point of view.</p></div></div>
+          <div class="service"><div class="service-num">02</div><div><h3>Film, Video &amp; Motion</h3><p>Brand films, launch films, commercials, product videos, videography, animation, motion graphics and video editing. Motion-led stories made to move people.</p></div></div>
+          <div class="service"><div class="service-num">03</div><div><h3>Content Creation &amp; Production</h3><p>Content creation, UGC, lifestyle content around products and brands, photography, product shoots, short-form video, social content and tailored creative production for brands and campaigns.</p></div></div>
+          <div class="service"><div class="service-num">04</div><div><h3>Marketing &amp; Advertising</h3><p>Campaign strategy, advertising, brand awareness and audience growth that help businesses reach the right people.</p></div></div>
+          <div class="service"><div class="service-num">05</div><div><h3>Influencer &amp; Creator Marketing</h3><p>Creator sourcing, influencer partnerships and campaign coordination that introduce brands to relevant audiences.</p></div></div>
         </div>
       </section>
       <section class="section" id="business-growth">
@@ -239,17 +303,17 @@
           <div class="eyebrow">03 / For businesses ready for more</div>
           <div class="business-intro">
             <h2>Already in business?<br>Let’s take it <em>further.</em></h2>
-            <p>You don’t have to be starting from scratch. Whether you need a stronger identity, more visibility or a way into a new market, we help your business make its next move.</p>
+            <p>Already established or entering a new market? We help you sharpen your identity, create better content and get in front of more people.</p>
           </div>
           <div class="growth-grid">
-            <article class="growth-card"><div class="growth-num">01 / REPOSITION</div><h3>Rebrand &amp; reposition</h3><p>Refresh your identity, sharpen your positioning and make sure your brand reflects where your business is going.</p></article>
-            <article class="growth-card"><div class="growth-num">02 / CREATE</div><h3>Content creation</h3><p>We create tailored photo, video and social content for your brand, from one-off campaigns to ongoing content needs.</p></article>
-            <article class="growth-card"><div class="growth-num">03 / GET NOTICED</div><h3>Reach more people</h3><p>Build awareness, attract new customers and put your business in front of the audiences that matter.</p></article>
-            <article class="growth-card"><div class="growth-num">04 / EXPAND</div><h3>Enter new markets</h3><p>Bring your business into Nigeria or a new market with the right story, local relevance and launch strategy.</p></article>
-            <article class="growth-card"><div class="growth-num">05 / CONNECT</div><h3>Influencer &amp; creator partnerships</h3><p>We find and coordinate relevant influencers and content creators to introduce your brand to the right communities.</p></article>
+            <article class="growth-card"><div class="growth-num">01 / REPOSITION</div><h3>Rebrand &amp; reposition</h3><p>A sharper identity and clearer positioning for the next stage of your business.</p></article>
+            <article class="growth-card"><div class="growth-num">02 / CREATE</div><h3>Content creation</h3><p>Original photo, video and social content created around your brand and goals.</p></article>
+            <article class="growth-card"><div class="growth-num">03 / GET NOTICED</div><h3>Reach more people</h3><p>Campaigns that build awareness, attract customers and grow your audience.</p></article>
+            <article class="growth-card"><div class="growth-num">04 / EXPAND</div><h3>Enter new markets</h3><p>Launch in Nigeria or a new market with local insight and a clear introduction.</p></article>
+            <article class="growth-card"><div class="growth-num">05 / CONNECT</div><h3>Influencer &amp; creator partnerships</h3><p>Find and work with relevant creators who can introduce your brand to their audiences.</p></article>
           </div>
           <div class="growth-foot">
-            <p>Wherever your business is today, let’s figure out what its next stage could look like.</p>
+            <p>Tell us where you want your business to go. We’ll help you plan the next move.</p>
             <a class="growth-link" href="mailto:crencehq@gmail.com?subject=Growing%20my%20business%20%7C%20Crence">Let’s grow your business</a>
           </div>
         </div>
@@ -271,7 +335,7 @@
       </section>
     </main>
     <footer>
-      <span>Creative &amp; Branding · Film &amp; Motion · Marketing &amp; Advertising</span>
+      <span class="footer-description">Creative, film, content and marketing for brands ready to move.</span>
       <nav class="footer-socials" aria-label="Social media">
         <a class="social-icon" href="https://x.com/ItsCrence_" target="_blank" rel="noopener noreferrer" aria-label="Crence on X" title="X">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-6.78 7.75L23.2 22h-6.25l-4.9-7.45L5.53 22H2.4l7.25-8.29L1.9 2h6.4l4.43 6.77L18.9 2Zm-1.1 18h1.73L7.37 3.9H5.51L17.8 20Z"/></svg>
@@ -279,8 +343,14 @@
         <a class="social-icon" href="https://www.tiktok.com/@ItsCrence" target="_blank" rel="noopener noreferrer" aria-label="Crence on TikTok" title="TikTok">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.43v13.67a2.9 2.9 0 0 1-2.9 2.9 2.9 2.9 0 1 1 2.9-2.9c0-.24-.03-.47-.08-.69v-3.5a6.33 6.33 0 1 0 3.51 5.68V8.9a8.16 8.16 0 0 0 4.77 1.54V7.02c-.34 0-.67-.11-1-.33Z"/></svg>
         </a>
-        <a href="#top">Back to top</a>
+        <a class="social-icon" href="https://www.instagram.com/itscrence/" target="_blank" rel="noopener noreferrer" aria-label="Crence on Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm0 2h10c1.66 0 3 1.34 3 3v10c0 1.66-1.34 3-3 3H7c-1.66 0-3-1.34-3-3V7c0-1.66 1.34-3 3-3zm11 1.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg>
+        </a>
+        <a class="social-icon" href="https://www.linkedin.com/company/crence/" target="_blank" rel="noopener noreferrer" aria-label="Crence on LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3a2.2 2.2 0 1 0 0 4.4 2.2 2.2 0 0 0 0-4.4zM3.3 9h3.8v12H3.3V9zm6.1 0H13v1.6h.1c.5-.9 1.7-1.9 3.6-1.9 3.9 0 4.6 2.5 4.6 5.7V21h-3.8v-5.8c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3.1V21H9.4V9z"/></svg>
+        </a>
       </nav>
+      <a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
     </footer>
   </div>
   <div class="contact-modal" id="contact-form" role="dialog" aria-modal="true" aria-labelledby="contact-form-title">
